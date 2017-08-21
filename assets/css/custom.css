@@ -1,0 +1,294 @@
+﻿.header-style-5 .is-fixed .main-bar {
+    position: fixed;
+    background: #2c4a6b;
+    color: #fff;
+}
+
+.breadcrumb-row {
+    display: none;
+}
+
+#bookings .input-box {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+}
+
+#myBookingsModal .modal-dialog {
+    left: 0;
+}
+
+#why-choose-section .p-r40 {
+    padding-left: 40px;
+}
+
+#bookings .first-column {
+    border-right: 1px solid #ededed;
+    margin-top: 38px;
+}
+
+#bookings .bottom-line {
+    border-bottom: 2px solid #099;
+}
+
+#track-booking .form-group{
+	overflow:hidden;
+	margin-bottom:15px;
+}
+
+.banner-image {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 24%;
+}
+
+.footer-info-box {
+    border: none;
+}
+
+.white-box1 {
+    padding-bottom: 55px;
+}
+
+.white-box2 {
+    padding-bottom: 83px;
+}
+
+.doc-btn {
+    width: 170px;
+}
+
+.textile-btn {
+    width: 162px;
+}
+
+.pickup-box {
+    padding-bottom: 52px;
+}
+
+#myBookingsModal .modal-dialog {
+    left: 0;
+}
+.label-track{
+	font-weight:600;
+	
+}
+#bg {
+	padding-right:0 !important;
+}
+.service-header-img{
+	 background-image:url('../images/bg4.jpg');
+}
+.about-header-img{
+	background-image:url('../images/bg1.png');
+}
+.howwework-header-img{
+	 background-image:url('../images/bg2.png');
+}
+.whychooseus-header-img{
+	 background-image:url('../images/bg3.jpg');
+}
+.contact-header-img{
+	 background-image:url('../images/bg5.png');
+}
+
+body .modal-open {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/*
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+	@media
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		#usergrid table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		#usergrid thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+		#usergrid tr { border: 1px solid #ccc; }
+
+		#usergrid td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		#usergrid td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+		*/
+		#usergrid td:nth-of-type(1):before { content: "Booking ID"; }
+		#usergrid td:nth-of-type(2):before { content: "Source/Destination"; }
+		#usergrid td:nth-of-type(3):before { content: "Route"; }
+		#usergrid td:nth-of-type(4):before { content: "Vehicle No"; }
+		#usergrid td:nth-of-type(5):before { content: "Status"; }
+		#usergrid td:nth-of-type(6):before { content: "Driver Info"; }
+		#usergrid td:nth-of-type(7):before { content: "Action"; }
+		
+	}
+
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		#usergrid body {
+			padding: 0;
+			margin: 0;
+			width: 320px; }
+		}
+
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		#usergrid body {
+			width: 495px;
+		}
+	}
+
+@media only screen and (max-width: 767px) {
+    .dez-media .home-white-image {
+        display: none;
+    }
+
+    .banner-image {
+        padding-bottom: 0;
+    }
+
+    .p-tb30 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .footer-top {
+        padding: 5px 0 20px;
+    }
+
+    .widget {
+        margin-bottom: 25px;
+    }
+
+    .h2 {
+        font-size: 25px;
+    }
+
+    .p-t60 {
+        padding-top: 20px;
+    }
+
+    .p-t70 {
+        padding-top: 20px;
+    }
+
+    .content-area {
+        padding-top: 0;
+    }
+
+    .page-content {
+        padding-bottom: 0;
+    }
+
+    .h3 {
+        font-size: 20px;
+    }
+
+    .white-box1 {
+        padding-bottom: 20px;
+    }
+
+    .white-box2 {
+        padding-bottom: 20px;
+    }
+
+    .section-head {
+        margin-bottom: 20px;
+    }
+
+    .icon-bx-md {
+        height: 75px;
+        width: 75px;
+        line-height: 72px;
+    }
+
+    .m-r40 {
+        margin-right: 26px;
+    }
+
+    .m-b30 {
+        margin-bottom: 30px;
+    }
+
+    .p-a20 {
+        padding: 20px;
+    }
+
+    .padding-left {
+        padding-left: 43px;
+    }
+
+    #why-choose-section .p-r40 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .icon-bx-sm {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .m-b50 {
+        margin-bottom: 38px;
+    }
+
+    .m-t40 {
+        margin-top: 7px;
+    }
+
+    .p-a30 {
+        padding: 5px;
+    }
+	.header-style-5 .main-bar{
+		border:none;
+	}
+	.responsive-margin{
+		margin-top:25px;
+	}
+	.responsive-border{
+		border-bottom:2px solid #fff;
+		padding-bottom:35px;
+	}
+	.responsive-margin-track{
+		margin-bottom:25px;
+	}
+}
